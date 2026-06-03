@@ -3,12 +3,12 @@ import { useEffect, useRef, useState } from "react";
 const projects = [
   {
     id: 1,
-    title: "CodeHunt",
+    title: "AgriConnect",
     description:
-      "CodeHunt is a MERN-Stack Web Application & an online marketplace that connects freelancers and clients from all around the globe. Freelancers can generate revenue by selling their projects.",
+      "AgriConnect is a MERN-Stack Web Application & an online marketplace that connects farmers and agricultural service providers from all around the globe. Farmers can generate revenue by selling their produce and services.",
     image: null,
     previewBg: "linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%)",
-    previewLabel: "Freelance Marketplace",
+    previewLabel: "Agricultural Marketplace",
     liveLink: "#",
     githubLink: "#",
     youtubeLink: "#",
@@ -18,12 +18,12 @@ const projects = [
   },
   {
     id: 2,
-    title: "HostelBuddy",
+    title: "WonderLust",
     description:
-      "HostelBuddy is a Full-Stack Web Application designed to make it easier for hostelers to share essential items like food, medicine, and books with each other.",
+      "WonderLust is a Full-Stack Web Application designed to make it easier for travelers to discover and book unique experiences around the world.",
     image: null,
     previewBg: "linear-gradient(135deg, #0d2137 0%, #0a3d62 50%, #1b6ca8 100%)",
-    previewLabel: "Item Sharing Platform",
+    previewLabel: "Travel Experience Platform",
     liveLink: "#",
     githubLink: "#",
     youtubeLink: "#",
@@ -33,7 +33,7 @@ const projects = [
   },
   {
     id: 3,
-    title: "Portfolio Website",
+    title: "MeetBridge",
     description:
       "Personal portfolio website showcasing skills, projects, and experience. Built with a modern MERN stack developer aesthetic and smooth animations.",
     image: null,

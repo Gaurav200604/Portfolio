@@ -24,6 +24,14 @@ const services = [
     accent: 'from-pink-300 via-violet-400 to-cyan-300',
   },
 ]
+const downloadResume = () => {
+  const link = document.createElement("a");
+  link.href = "/resume.pdf";
+  link.download = "Gaurav_Resume.pdf";
+  document.body.appendChild(link);
+  link.click();
+  document.body.removeChild(link);
+};
 
 const Overview = () => {
   return (
@@ -46,6 +54,7 @@ const Overview = () => {
           </div>
 
           <a
+            onClick={downloadResume}
             href="/resume.pdf"
             className="inline-flex w-fit items-center justify-center rounded-full bg-emerald-500 px-6 py-4 text-base font-extrabold text-white shadow-[0_16px_48px_rgba(16,185,129,0.3)] transition hover:-translate-y-1 hover:bg-emerald-400"
           >
