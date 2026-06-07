@@ -185,8 +185,7 @@ function ProjectCard({ project, index }) {
           transition: "all 0.3s ease",
         }}>
           {[
-            { icon: "▶", label: "YouTube", bg: "#dc2626" },
-            { icon: "⬡", label: "GitHub", bg: "#1f2937" },
+            { label: "GitHub", icon: "", bg: "#333", link: project.githubLink },
           ].map((btn) => (
             <button key={btn.label} style={{
               width: 34,
